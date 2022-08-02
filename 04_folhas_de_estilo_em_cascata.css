@@ -1,0 +1,18 @@
+h1{
+    color: brown;
+    font-variant: small-caps;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: darkgoldenrod;
+    font-style: italic;
+    background-color: aquamarine;
+}
+
+li>strong{
+    color: blueviolet;
+}

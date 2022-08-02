@@ -1,0 +1,17 @@
+.model{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-color: aquamarine;
+    border-width: 5px;
+}
+
+.model:active{
+    border-width: 2px;
+}
