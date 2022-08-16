@@ -1,0 +1,159 @@
+body{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+header{
+    background-image: url('../imagens/topo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 600px;
+}
+
+header nav{
+    position: relative;
+    background-color: rgb(16, 34, 48);
+    border-top: 1px solid rgb(16, 34, 48);
+    height: 50px;
+}
+
+header img{
+    position: absolute;
+    left: 150px;
+    top: 1px;
+}
+
+header ul{
+    position: absolute;
+    margin-right: 20px;
+    text-align: right;
+    position: relative;
+}
+
+
+header ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header ul li a{
+    color: rgb(33, 71, 100);
+    text-decoration: none;
+}
+
+header ul li a:visited{
+    color: rgb(33, 71, 100);
+}
+
+header ul li a:hover{
+    color: rgb(61, 133, 189);
+}
+
+section{
+    margin-top: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 76%;
+}
+
+#portifolio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#portifolio h1{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#portifolio p{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.card{
+    display: inline-block;
+    width: 31%;
+    height: 300px;
+    margin-left: 1.4%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h1{
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+}
+
+.card p{
+    color: rgb(99, 99, 99);
+}
+
+#about_us{
+    background-image: url('../imagens/bg_detalhe.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom right;
+    height: 500px;
+    color: white;
+    border-top: 1px solid rgb(0, 59, 82);
+    background-color: rgb(0, 59, 82);
+}
+
+#about_us h1{
+    text-transform: uppercase;
+    margin-top: 12%;
+    margin-left: 12%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#about_us p{
+    margin-left: 12%;
+    margin-right: 40%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+#contact{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 59, 82);
+}
+
+#location iframe{
+    width: 100%;
+}
+
+footer{
+    margin-top: 80px;
+    padding-top: 10px;
+    background-color: rgb(0, 16, 24);
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(45, 101, 117);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
