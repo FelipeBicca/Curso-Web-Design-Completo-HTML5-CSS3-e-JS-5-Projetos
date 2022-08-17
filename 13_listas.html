@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Felipe">
+        <meta name="description" content="lista de tags">
+        <meta name="keywords" content="html5, tecnologia, programacao, internet">
+        <title>Listas</title>
+
+        <style>
+            li ul{
+                height: 0;
+                overflow: hidden;
+                transition: height 0.8s;
+            }
+
+            li:hover{
+                background: #ccc;
+            }
+
+            li:hover ul{
+                height: 50px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <!--Lista Aninhada-->
+        <ul>
+            <li>Item 1</li>
+            <li>
+                Item 2
+                <ul>
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ul>
+
+        <hr>
+
+        <!--Lista de definição-->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação de Hypertexto</dd>
+
+            <dt>CSS</dt>
+            <dd>Linguagem para criação de folhas de estilos</dd>
+        </dl>
+
+        <dl>
+            <dt>WWW</dt>
+            <dt>Internet</dt>
+            <dd>Rede mundial de computadores</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Linguagem Script para Internet</dd>
+            <dd>Script para rodar no Browser</dd>
+        </dl>
+
+    </body>
+</html>
